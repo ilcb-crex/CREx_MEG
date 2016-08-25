@@ -1,3 +1,5 @@
 # CREx_MEG
-Suite of functions to the facilitate the data processing using Brainstorm and Fieldtrip softwares -
-BST and FT folders respectively
+Suite of functions to facilitate the MEG data processing using Brainstorm and Fieldtrip softwares
+
+* BST folder
+Scripts using Brainstorm
