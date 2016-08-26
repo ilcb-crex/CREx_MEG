@@ -3,4 +3,8 @@ Suite of functions to facilitate the MEG data processing using Brainstorm and Fi
 
 * BST folder
 
-Functions using Brainstorm
+Suite of matlab functions based on Brainstorm
+
+* FT folder
+
+Suite of matlab functions based on Fieldtrip
