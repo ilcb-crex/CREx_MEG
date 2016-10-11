@@ -3,9 +3,9 @@ function BST_Pipeline_2_ImportMRI
     % Example of script for Brainstorm software
     % Import anatomy folder from FreeSurfer folder
     % BE CAREFULL !!! AFTER IMPORT, YOU MUST DEFINE FICUCIALS ON MRI FILES
-    % Author: Valérie Chanoine, Research Engineer at Brain and Language
-    % Institute (http://www.blri.fr/)
-    % Partners: Jean-Michel Badier and Christian Bénar from 
+    % Author: ValÃ©rie Chanoine, Research Engineer at Brain and Language
+    % Research Institute (http://www.blri.fr/)
+    % Partners: Jean-Michel Badier and Christian BÃ©nar from 
     % MEG Center of Marseille (Timone Hospital,  France)
     % Date: April 10, 2015
 
