@@ -2,9 +2,9 @@ function CREx_MEG_BST_Pipeline_1_CreateProtocolFolders
 % Example of script for Brainstorm software
 % 1 - create a protocol and new sujets
 % 2 - import 4D MEG Files per Run
-% Author: Valérie Chanoine, Research Engineer at Brain and Language
-% Institute (http://www.blri.fr/)
-% Partners: Jean-Michel Badier and Christian Bénar from 
+% Author: ValÃ©rie Chanoine, Research Engineer at Brain and Language
+% Research Institute (http://www.blri.fr/)
+% Partners: Jean-Michel Badier and Christian BÃ©nar from 
 % MEG Center of Marseille (Timone Hospital,  France)
 % Date: April 10, 2015
 
