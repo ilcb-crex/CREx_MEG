@@ -2,9 +2,9 @@ function BST_Pipeline_7_BadTrialsDetection
 
     % Example of script for Brainstorm software
     % Detection of Bad trials using peak-to-peak amplitude threshold
-    % Author: Valérie Chanoine, Research Engineer at Brain and Language
-    % Institute (http://www.blri.fr/)
-    % Partners: Jean-Michel Badier and Christian Bénar from 
+    % Author: ValÃ©rie Chanoine, Research Engineer at Brain and Language
+    % Research Institute (http://www.blri.fr/)
+    % Partners: Jean-Michel Badier and Christian BÃ©nar from 
     % MEG Center of Marseille (Timone Hospital,  France)
     % Date: April 12, 2015
 
