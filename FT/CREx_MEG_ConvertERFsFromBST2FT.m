@@ -2,7 +2,7 @@ function CREx_MEG_ConvertERFsFromBST2FT
 % Script to convert Event-Related Fields (ERFs) data structure from
 % Brainstorm to Fieldtrip including only good trials and channels) 
 % Note : The current protocol must be the first one in the protocol list of Brainstorm
-% Author: Valérie Chanoine, Research Engineer at Brain and Language
+% Author: ValÃ©rie Chanoine, Research Engineer at Brain and Language
 % Research Institute (http://www.blri.fr/)
 % Date: Oct 11, 2016
 
@@ -14,12 +14,8 @@ function CREx_MEG_ConvertERFsFromBST2FT
     
     w.dataDir       = 'F:\db_brainstorm\NV_bp_0p3_300\data';
     w.ProtocolName  = 'NV_bp_0p3_300';
-%     w.subjects    	= {'Subject01', 'Subject02'};
-%     w.conditions   	= {'Condition1, Condition2'}; 
-
-    w.subjects    	= {'NV_027_M1'};
-    w.conditions   	= {'PredNouns_TF'}; 
-
+    w.subjects      = {'Subject01', 'Subject02'};
+    w.conditions    = {'Condition1, Condition2'}; 
     w.trialName     = {'TRIGGER__530'};
     w.outputDir     = 'F:\MEG\NV_Project\Output';
   
@@ -37,8 +33,7 @@ function CREx_MEG_ConvertERFsFromBST2FT
     iProtocol = bst_get('Protocol', w.ProtocolName);
      
    
-    
-	% Loop on conditions 
+    % Loop on conditions 
     for iCond=1:numel(w.conditions) 
         % Loop on subjects
         for iSub=1:numel(w.subjects)
@@ -116,9 +111,9 @@ end
 
 
 function [sFiles sChannel] = GetAllTrials(w)
-	%======================================================================
+    %======================================================================
     % Get good trials and channel files from Brainstorm
-  	%======================================================================  
+    %======================================================================  
     
     %% Get all sFiles including bad trials
     [sStudy, iStudy] =  bst_get('StudyWithCondition', [w.sub '/' w.cond ]);
